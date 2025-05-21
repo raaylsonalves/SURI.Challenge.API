@@ -1,0 +1,6 @@
+@SURI.Challenge.API_HostAddress = https://localhost:7243
+
+GET {{SURI.Challenge.API_HostAddress}}/bills/05343491375
+Accept: application/json
+
+###
