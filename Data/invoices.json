@@ -1,0 +1,44 @@
+{
+  "Customers": [
+    {
+      "CPF": "797.188.660-86",
+      "Invoices": [
+        {
+          "Id": 1,
+          "Amount": "250.00",
+          "DueDate": "15/06/2025",
+          "Url": "https://pdfobject.com/pdf/sample.pdf"
+        },
+        {
+          "Id": 2,
+          "Amount": "100.00",
+          "DueDate": "20/06/2025",
+          "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf"
+        },
+        {
+          "Id": 3,
+          "Amount": "250.00",
+          "DueDate": "20/06/2025",
+          "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf"
+        },
+        {
+          "Id": 4,
+          "Amount": "100.00",
+          "DueDate": "20/06/2025",
+          "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf"
+        }
+      ]
+    },
+    {
+      "CPF": "987.654.321-00",
+      "Invoices": [
+        {
+          "Id": 1,
+          "Amount": "100.00",
+          "DueDate": "20/06/2025",
+          "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf"
+        }
+      ]
+    }
+  ]
+}
