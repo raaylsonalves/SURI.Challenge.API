@@ -21,7 +21,7 @@ namespace SURI.Challenge.API.Controllers
 
             var flowActionCapture = FlowActionService<Invoice>.GenerateFlowActionCapture(
                     title: "Escolha o boleto desejado",
-                    body: "Selecione abaixo o boleto para receber a segunda vida:",
+                    body: "Selecione abaixo o boleto para receber a segunda via:",
                     buttonTitle: "Ver boletos",
                     sectionTitle: "Boletos disponíveis",
                     items: invoices!,
