@@ -77,7 +77,7 @@ Content-Type: application/json
 
 ## 📂 Estrutura do Projeto
 ```
-📦 SuriIntegration
+📦 SURI.Challenge.API
  ┣ 📂 Controllers     # API para comunicação com o chatbot
  ┣ 📂 Services        # Lógica de recuperação de boletos
  ┣ 📂 Models         # Estruturas de dados (Invoices, CPF)
