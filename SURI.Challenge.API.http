@@ -1,6 +1,39 @@
 @SURI.Challenge.API_HostAddress = https://localhost:7243
 
-GET {{SURI.Challenge.API_HostAddress}}/bills/05343491375
+### Get Invoices from json and send flowActionCapture to Suri
+
+GET {{SURI.Challenge.API_HostAddress}}/invoices/79718866086
 Accept: application/json
 
-###
+### Send Url PDF to Suri with flowAction
+
+POST {{SURI.Challenge.API_HostAddress}}/invoices/send-pdf
+Content-Type: application/json
+
+{
+  "id": 1,
+  "cpf": "79718866086"
+}
+
+### Create Invoices inside invoices.json
+
+POST {{SURI.Challenge.API_HostAddress}}/invoices
+Content-Type: application/json
+
+{
+  "CPF": "79718866086",
+  "Invoices": [
+    {
+      "Id": 3,
+      "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf",
+      "Amount": "250.00",
+      "DueDate": "20/06/2025"
+    },
+    {
+      "Id": 4,
+      "Url": "https://storage.googleapis.com/fic-invoice/pdfs/teste-0000001-1748037492.pdf",
+      "Amount": "100.00",
+      "DueDate": "20/06/2025"
+    }
+  ]
+}
