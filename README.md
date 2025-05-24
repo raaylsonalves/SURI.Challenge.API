@@ -25,10 +25,10 @@ git clone https://github.com/raaylsonalves/SURI.Challenge.API.git
 cd SURI.Challenge
 ```
 ### 🔹 2. Executar o Projeto
+Podendo ser executado no Visual Studio por linha de comando:
 ```sh
 dotnet run
 ```
-Podendo também excuta-lo no Visual Studio.
 
 ## 📝 Como Realizar Requisições
 Dentro da pasta do projeto ou ao abrir a sln do projeto existe um arquivo .http que pode ser executado diretamente do Visual Studio.
